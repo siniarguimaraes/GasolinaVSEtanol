@@ -21,26 +21,26 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editPrimeiroNome"
+        android:id="@+id/editGasolina"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:hint="@string/txt_hint_edit_gasolina"
         android:inputType="text" />
 
 
     <EditText
-        android:id="@+id/editSobreNome"
+        android:id="@+id/editEtanol"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:hint="@string/txt_hint_edit_sobrenome"
+        android:hint="@string/txt_hint_edit_etanol"
         android:inputType="text" />
 
     <EditText
@@ -66,7 +66,7 @@
         android:inputType="text" />
 
     <TextView
-        android:id="@+id/txtListaSpinner"
+        android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -74,7 +74,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@color/vermelho"
-        android:text="@string/txt_selecione_um_curso"
+        android:text="@string/txt_resultado"
         android:textSize="20sp"
         android:textStyle="bold" />
 
