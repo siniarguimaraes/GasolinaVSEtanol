@@ -20,13 +20,13 @@
         app:layout_constraintVertical_bias="0.077" />
 
     <EditText
-        android:id="@+id/editPrimeiroNome"
+        android:id="@+id/editGasolina"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
         android:layout_marginTop="92dp"
         android:ems="10"
-        android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:hint="@string/txt_hint_edit_gasolina"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,17 +34,17 @@
 
 
     <EditText
-        android:id="@+id/editSobreNome"
+        android:id="@+id/editEtanol"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_margin="16dp"
         android:layout_marginTop="76dp"
         android:ems="10"
-        android:hint="@string/txt_hint_edit_sobrenome"
+        android:hint="@string/txt_hint_edit_etanol"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editPrimeiroNome" />
+        app:layout_constraintTop_toBottomOf="@+id/editGasolina" />
 
     <EditText
         android:id="@+id/editTextNomeCurso"
@@ -57,7 +57,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editSobreNome" />
+        app:layout_constraintTop_toBottomOf="@+id/editEtanol" />
 
     <EditText
         android:id="@+id/editTelefone"
@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextNomeCurso" />
 
     <TextView
-        android:id="@+id/txtListaSpinner"
+        android:id="@+id/txtResultado"
         android:layout_width="236dp"
         android:layout_height="28dp"
         android:text="Selecione um Curso..."
